@@ -31658,3 +31658,52 @@
 [2020-01-17 15:29:16,194] {{scheduler_job.py:1262}} INFO - Processing hello_world
 [2020-01-17 15:29:16,213] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
 [2020-01-17 15:29:16,217] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.097 seconds
+[2020-01-17 15:29:20,142] {{scheduler_job.py:153}} INFO - Started process (PID=11917) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:20,150] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:20,151] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:20,151] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:20,161] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:20,207] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:20,223] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:20,227] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.085 seconds
+[2020-01-17 15:29:24,142] {{scheduler_job.py:153}} INFO - Started process (PID=11966) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:24,146] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:24,147] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:24,147] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:24,155] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:24,195] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:24,211] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:24,214] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.073 seconds
+[2020-01-17 15:29:28,143] {{scheduler_job.py:153}} INFO - Started process (PID=12012) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:28,148] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:28,150] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:28,150] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:28,182] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:28,224] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:28,244] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:28,248] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.105 seconds
+[2020-01-17 15:29:32,158] {{scheduler_job.py:153}} INFO - Started process (PID=12042) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:32,164] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:32,166] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:32,166] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:32,177] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:32,219] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:32,236] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:32,241] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.082 seconds
+[2020-01-17 15:29:36,164] {{scheduler_job.py:153}} INFO - Started process (PID=12088) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:36,171] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:36,174] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:36,174] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:36,184] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:36,225] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:36,243] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:36,247] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.083 seconds
+[2020-01-17 15:29:40,176] {{scheduler_job.py:153}} INFO - Started process (PID=12124) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:40,180] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:40,182] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:40,182] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:40,212] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:40,252] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:40,272] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:40,277] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.101 seconds
+[2020-01-17 15:29:44,225] {{scheduler_job.py:153}} INFO - Started process (PID=12170) to work on /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:44,229] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/hello.py for tasks to queue
+[2020-01-17 15:29:44,230] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:44,230] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:44,237] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /usr/local/airflow/dags/hello.py
+[2020-01-17 15:29:44,274] {{scheduler_job.py:1262}} INFO - Processing hello_world
+[2020-01-17 15:29:44,290] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-01-17 15:29:44,293] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/hello.py took 0.069 seconds

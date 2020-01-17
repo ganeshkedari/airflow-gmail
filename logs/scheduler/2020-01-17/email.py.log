@@ -31155,3 +31155,52 @@ NameError: name 'dummy_operator' is not defined
 [2020-01-17 15:29:14,509] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
 [2020-01-17 15:29:14,527] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
 [2020-01-17 15:29:14,530] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.394 seconds
+[2020-01-17 15:29:18,124] {{scheduler_job.py:153}} INFO - Started process (PID=11870) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:18,129] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:18,130] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:18,130] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:18,320] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:18,351] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:18,368] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:18,371] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.247 seconds
+[2020-01-17 15:29:22,131] {{scheduler_job.py:153}} INFO - Started process (PID=11951) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:22,142] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:22,151] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:22,146] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:22,636] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:22,694] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:22,734] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:22,740] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.609 seconds
+[2020-01-17 15:29:26,138] {{scheduler_job.py:153}} INFO - Started process (PID=11997) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:26,145] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:26,147] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:26,147] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:26,365] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:26,402] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:26,421] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:26,424] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.286 seconds
+[2020-01-17 15:29:30,169] {{scheduler_job.py:153}} INFO - Started process (PID=12027) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:30,177] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:30,179] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:30,178] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:30,388] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:30,425] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:30,442] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:30,445] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.276 seconds
+[2020-01-17 15:29:34,179] {{scheduler_job.py:153}} INFO - Started process (PID=12057) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:34,198] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:34,199] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:34,199] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:34,408] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:34,442] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:34,460] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:34,464] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.286 seconds
+[2020-01-17 15:29:38,171] {{scheduler_job.py:153}} INFO - Started process (PID=12109) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:38,185] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:38,189] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:38,189] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:38,406] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:38,447] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:38,471] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:38,474] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.303 seconds
+[2020-01-17 15:29:42,199] {{scheduler_job.py:153}} INFO - Started process (PID=12155) to work on /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:42,209] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/email.py for tasks to queue
+[2020-01-17 15:29:42,211] {{logging_mixin.py:112}} INFO - [2020-01-17 15:29:42,210] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:42,410] {{scheduler_job.py:1551}} INFO - DAG(s) dict_keys(['GetAttachments']) retrieved from /usr/local/airflow/dags/email.py
+[2020-01-17 15:29:42,442] {{scheduler_job.py:1262}} INFO - Processing GetAttachments
+[2020-01-17 15:29:42,465] {{scheduler_job.py:440}} INFO - Skipping SLA check for <DAG: GetAttachments> because no tasks in DAG have SLAs
+[2020-01-17 15:29:42,468] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/email.py took 0.269 seconds
