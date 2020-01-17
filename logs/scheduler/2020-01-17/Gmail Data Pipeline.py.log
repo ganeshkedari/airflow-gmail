@@ -1,0 +1,769 @@
+[2020-01-17 10:49:28,359] {{scheduler_job.py:153}} INFO - Started process (PID=22776) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:28,365] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:28,368] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:28,366] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:28,377] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:28,381] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:28,379] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:28,382] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:28,402] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.043 seconds
+[2020-01-17 10:49:32,367] {{scheduler_job.py:153}} INFO - Started process (PID=22806) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:32,374] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:32,375] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:32,375] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:32,381] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:32,384] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:32,383] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:32,385] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:32,402] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.035 seconds
+[2020-01-17 10:49:36,393] {{scheduler_job.py:153}} INFO - Started process (PID=22836) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:36,399] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:36,404] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:36,403] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:36,411] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:36,426] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:36,413] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:36,426] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:36,458] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.065 seconds
+[2020-01-17 10:49:40,404] {{scheduler_job.py:153}} INFO - Started process (PID=22866) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:40,411] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:40,411] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:40,411] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:40,417] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:40,419] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:40,418] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:40,420] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:40,445] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.042 seconds
+[2020-01-17 10:49:44,462] {{scheduler_job.py:153}} INFO - Started process (PID=22897) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:44,475] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:44,479] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:44,478] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:44,492] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:44,500] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:44,498] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:44,502] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:44,532] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.073 seconds
+[2020-01-17 10:49:48,424] {{scheduler_job.py:153}} INFO - Started process (PID=22927) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:48,433] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:48,436] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:48,436] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:48,445] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:48,461] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:48,451] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:48,461] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:48,485] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.061 seconds
+[2020-01-17 10:49:52,451] {{scheduler_job.py:153}} INFO - Started process (PID=22963) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:52,468] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:52,470] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:52,469] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:52,486] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:52,492] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:52,490] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:52,493] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:52,547] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.097 seconds
+[2020-01-17 10:49:56,448] {{scheduler_job.py:153}} INFO - Started process (PID=22993) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:56,459] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:49:56,460] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:56,460] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:56,464] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:49:56,466] {{logging_mixin.py:112}} INFO - [2020-01-17 10:49:56,466] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:49:56,467] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:49:56,486] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.039 seconds
+[2020-01-17 10:50:00,458] {{scheduler_job.py:153}} INFO - Started process (PID=23023) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:00,467] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:00,470] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:00,470] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:00,490] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:00,495] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:00,491] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:00,496] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:00,520] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.062 seconds
+[2020-01-17 10:50:04,478] {{scheduler_job.py:153}} INFO - Started process (PID=23053) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:04,483] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:04,485] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:04,484] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:04,489] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:04,491] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:04,490] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:04,492] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:04,514] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.036 seconds
+[2020-01-17 10:50:08,477] {{scheduler_job.py:153}} INFO - Started process (PID=23083) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:08,487] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:08,489] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:08,489] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:08,493] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:08,495] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:08,494] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:08,496] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:08,515] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.038 seconds
+[2020-01-17 10:50:12,499] {{scheduler_job.py:153}} INFO - Started process (PID=23117) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:12,507] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:12,509] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:12,509] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:12,517] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:12,533] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:12,520] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:12,533] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:12,562] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.062 seconds
+[2020-01-17 10:50:16,510] {{scheduler_job.py:153}} INFO - Started process (PID=23148) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:16,514] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:16,515] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:16,515] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:16,520] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:16,522] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:16,521] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:16,522] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:16,545] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.035 seconds
+[2020-01-17 10:50:20,525] {{scheduler_job.py:153}} INFO - Started process (PID=23178) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:20,533] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:20,534] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:20,534] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:20,539] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:20,541] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:20,540] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:20,542] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:20,560] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.035 seconds
+[2020-01-17 10:50:24,568] {{scheduler_job.py:153}} INFO - Started process (PID=23208) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:24,575] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:24,577] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:24,576] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:24,596] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:24,598] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:24,598] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:24,601] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:24,641] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.073 seconds
+[2020-01-17 10:50:28,561] {{scheduler_job.py:153}} INFO - Started process (PID=23238) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:28,569] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:28,572] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:28,572] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:28,577] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:28,579] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:28,579] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:28,580] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:28,605] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.044 seconds
+[2020-01-17 10:50:32,575] {{scheduler_job.py:153}} INFO - Started process (PID=23268) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:32,582] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:32,584] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:32,584] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:32,592] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:32,594] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:32,593] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:32,594] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:32,613] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.039 seconds
+[2020-01-17 10:50:36,618] {{scheduler_job.py:153}} INFO - Started process (PID=23301) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:36,621] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:36,623] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:36,623] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:36,648] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:36,652] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:36,650] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:36,653] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:36,681] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.069 seconds
+[2020-01-17 10:50:40,611] {{scheduler_job.py:153}} INFO - Started process (PID=23331) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:40,619] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:40,621] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:40,621] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:40,625] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:40,627] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:40,626] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:40,627] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:40,651] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.040 seconds
+[2020-01-17 10:50:44,632] {{scheduler_job.py:153}} INFO - Started process (PID=23361) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:44,640] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:44,641] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:44,641] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:44,645] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:44,648] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:44,647] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:44,648] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:44,666] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.034 seconds
+[2020-01-17 10:50:48,646] {{scheduler_job.py:153}} INFO - Started process (PID=23392) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:48,653] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:48,653] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:48,653] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:48,664] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:48,682] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:48,665] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:48,682] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:48,710] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.064 seconds
+[2020-01-17 10:50:52,663] {{scheduler_job.py:153}} INFO - Started process (PID=23428) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:52,667] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:52,668] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:52,668] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:52,675] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:52,677] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:52,676] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:52,678] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:52,705] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.047 seconds
+[2020-01-17 10:50:56,680] {{scheduler_job.py:153}} INFO - Started process (PID=23458) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:56,684] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:50:56,685] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:56,685] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:56,690] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:50:56,692] {{logging_mixin.py:112}} INFO - [2020-01-17 10:50:56,691] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:50:56,693] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:50:56,710] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.031 seconds
+[2020-01-17 10:51:00,684] {{scheduler_job.py:153}} INFO - Started process (PID=23488) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:00,692] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:00,693] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:00,693] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:00,704] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:51:00,720] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:00,711] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:51:00,720] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:00,761] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.077 seconds
+[2020-01-17 10:51:04,695] {{scheduler_job.py:153}} INFO - Started process (PID=23518) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:04,704] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:04,706] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:04,705] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:04,714] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:51:04,716] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:04,715] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:51:04,716] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:04,739] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.043 seconds
+[2020-01-17 10:51:08,718] {{scheduler_job.py:153}} INFO - Started process (PID=23548) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:08,724] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:08,727] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:08,727] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:08,733] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/airflow/utils/helpers.py:439: DeprecationWarning: Importing 'ShortCircuitOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-01-17 10:51:08,735] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:08,735] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/Gmail Data Pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/Gmail Data Pipeline.py", line 5, in <module>
+    from operators import GmailToGCS
+ModuleNotFoundError: No module named 'operators'
+[2020-01-17 10:51:08,736] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:08,753] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.035 seconds
+[2020-01-17 10:51:12,722] {{scheduler_job.py:153}} INFO - Started process (PID=23586) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:12,729] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:12,732] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:12,732] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:12,736] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:12,736] {{dagbag.py:229}} INFO - File /usr/local/airflow/dags/Gmail Data Pipeline.py assumed to contain no DAGs. Skipping.
+[2020-01-17 10:51:12,737] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:12,772] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.050 seconds
+[2020-01-17 10:51:16,751] {{scheduler_job.py:153}} INFO - Started process (PID=23618) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:16,756] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:16,756] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:16,756] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:16,758] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:16,758] {{dagbag.py:229}} INFO - File /usr/local/airflow/dags/Gmail Data Pipeline.py assumed to contain no DAGs. Skipping.
+[2020-01-17 10:51:16,758] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:16,764] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:51:20,764] {{scheduler_job.py:153}} INFO - Started process (PID=23652) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:20,773] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:20,774] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:20,774] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:20,776] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:20,776] {{dagbag.py:229}} INFO - File /usr/local/airflow/dags/Gmail Data Pipeline.py assumed to contain no DAGs. Skipping.
+[2020-01-17 10:51:20,776] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:20,784] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.021 seconds
+[2020-01-17 10:51:24,794] {{scheduler_job.py:153}} INFO - Started process (PID=23685) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:24,803] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:24,805] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:24,805] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:24,807] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:24,807] {{dagbag.py:229}} INFO - File /usr/local/airflow/dags/Gmail Data Pipeline.py assumed to contain no DAGs. Skipping.
+[2020-01-17 10:51:24,809] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:24,833] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.039 seconds
+[2020-01-17 10:51:28,801] {{scheduler_job.py:153}} INFO - Started process (PID=23716) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:28,809] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:28,811] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:28,811] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:28,812] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:28,813] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:51:32,835] {{scheduler_job.py:153}} INFO - Started process (PID=23747) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:32,845] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:32,847] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:32,846] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:32,848] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:32,849] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:51:36,879] {{scheduler_job.py:153}} INFO - Started process (PID=23778) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:36,890] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:36,897] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:36,897] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:36,899] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:36,900] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.021 seconds
+[2020-01-17 10:51:40,881] {{scheduler_job.py:153}} INFO - Started process (PID=23808) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:40,889] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:40,890] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:40,890] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:40,892] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:40,893] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.011 seconds
+[2020-01-17 10:51:44,895] {{scheduler_job.py:153}} INFO - Started process (PID=23838) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:44,904] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:44,905] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:44,905] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:44,906] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:44,907] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:51:48,907] {{scheduler_job.py:153}} INFO - Started process (PID=23868) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:48,914] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:48,917] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:48,917] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:48,918] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:48,920] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:51:52,925] {{scheduler_job.py:153}} INFO - Started process (PID=23902) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:52,939] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:52,941] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:52,941] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:52,943] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:52,944] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.022 seconds
+[2020-01-17 10:51:56,934] {{scheduler_job.py:153}} INFO - Started process (PID=23932) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:56,938] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:51:56,939] {{logging_mixin.py:112}} INFO - [2020-01-17 10:51:56,939] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:56,940] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:51:56,941] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.007 seconds
+[2020-01-17 10:52:00,931] {{scheduler_job.py:153}} INFO - Started process (PID=23962) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:00,938] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:00,939] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:00,939] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:00,941] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:00,942] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:52:04,956] {{scheduler_job.py:153}} INFO - Started process (PID=23992) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:04,964] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:04,967] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:04,967] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:04,969] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:04,970] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:52:08,993] {{scheduler_job.py:153}} INFO - Started process (PID=24022) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:09,004] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:09,005] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:09,005] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:09,006] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:09,007] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:52:12,986] {{scheduler_job.py:153}} INFO - Started process (PID=24055) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:12,996] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:12,997] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:12,997] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:12,998] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:13,000] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.019 seconds
+[2020-01-17 10:52:17,022] {{scheduler_job.py:153}} INFO - Started process (PID=24085) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:17,026] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:17,027] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:17,027] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:17,029] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:17,030] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.008 seconds
+[2020-01-17 10:52:21,025] {{scheduler_job.py:153}} INFO - Started process (PID=24116) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:21,035] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:21,038] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:21,038] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:21,047] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:21,048] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.023 seconds
+[2020-01-17 10:52:25,027] {{scheduler_job.py:153}} INFO - Started process (PID=24146) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:25,036] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:25,037] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:25,037] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:25,039] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:25,040] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:52:29,036] {{scheduler_job.py:153}} INFO - Started process (PID=24176) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:29,044] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:29,047] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:29,047] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:29,049] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:29,050] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:52:33,058] {{scheduler_job.py:153}} INFO - Started process (PID=24206) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:33,066] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:33,069] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:33,069] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:33,072] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:33,074] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.015 seconds
+[2020-01-17 10:52:37,088] {{scheduler_job.py:153}} INFO - Started process (PID=24236) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:37,106] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:37,106] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:37,106] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:37,108] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:37,110] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.022 seconds
+[2020-01-17 10:52:41,087] {{scheduler_job.py:153}} INFO - Started process (PID=24266) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:41,094] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:41,097] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:41,097] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:41,098] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:41,099] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:52:45,097] {{scheduler_job.py:153}} INFO - Started process (PID=24296) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:45,103] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:45,106] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:45,106] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:45,108] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:45,110] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:52:49,115] {{scheduler_job.py:153}} INFO - Started process (PID=24326) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:49,123] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:49,124] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:49,124] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:49,126] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:49,128] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:52:53,123] {{scheduler_job.py:153}} INFO - Started process (PID=24356) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:53,130] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:53,133] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:53,133] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:53,134] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:53,135] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:52:57,154] {{scheduler_job.py:153}} INFO - Started process (PID=24391) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:57,158] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:52:57,159] {{logging_mixin.py:112}} INFO - [2020-01-17 10:52:57,159] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:57,160] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:52:57,161] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.006 seconds
+[2020-01-17 10:53:01,169] {{scheduler_job.py:153}} INFO - Started process (PID=24421) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:01,177] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:01,179] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:01,179] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:01,181] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:01,182] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:53:05,191] {{scheduler_job.py:153}} INFO - Started process (PID=24451) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:05,199] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:05,202] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:05,201] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:05,203] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:05,205] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:53:09,197] {{scheduler_job.py:153}} INFO - Started process (PID=24481) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:09,201] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:09,202] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:09,202] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:09,203] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:09,204] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.007 seconds
+[2020-01-17 10:53:13,206] {{scheduler_job.py:153}} INFO - Started process (PID=24518) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:13,215] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:13,216] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:13,216] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:13,218] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:13,220] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.014 seconds
+[2020-01-17 10:53:17,255] {{scheduler_job.py:153}} INFO - Started process (PID=24548) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:17,258] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:17,259] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:17,259] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:17,260] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:17,261] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.007 seconds
+[2020-01-17 10:53:21,239] {{scheduler_job.py:153}} INFO - Started process (PID=24578) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:21,247] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:21,248] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:21,248] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:21,250] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:21,251] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:53:25,267] {{scheduler_job.py:153}} INFO - Started process (PID=24609) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:25,274] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:25,275] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:25,275] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:25,277] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:25,278] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:53:29,285] {{scheduler_job.py:153}} INFO - Started process (PID=24639) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:29,292] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:29,296] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:29,296] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:29,299] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:29,302] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.017 seconds
+[2020-01-17 10:53:33,282] {{scheduler_job.py:153}} INFO - Started process (PID=24669) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:33,289] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:33,292] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:33,292] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:33,294] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:33,295] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:53:37,321] {{scheduler_job.py:153}} INFO - Started process (PID=24699) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:37,332] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:37,347] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:37,347] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:37,348] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:37,348] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.028 seconds
+[2020-01-17 10:53:41,315] {{scheduler_job.py:153}} INFO - Started process (PID=24729) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:41,323] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:41,325] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:41,324] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:41,326] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:41,328] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:53:45,327] {{scheduler_job.py:153}} INFO - Started process (PID=24759) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:45,335] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:45,336] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:45,336] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:45,337] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:45,338] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.015 seconds
+[2020-01-17 10:53:49,357] {{scheduler_job.py:153}} INFO - Started process (PID=24789) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:49,365] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:49,375] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:49,375] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:49,376] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:49,377] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.021 seconds
+[2020-01-17 10:53:53,381] {{scheduler_job.py:153}} INFO - Started process (PID=24819) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:53,388] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:53,390] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:53,390] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:53,391] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:53,392] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.010 seconds
+[2020-01-17 10:53:57,385] {{scheduler_job.py:153}} INFO - Started process (PID=24853) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:57,389] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:53:57,390] {{logging_mixin.py:112}} INFO - [2020-01-17 10:53:57,390] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:57,391] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:53:57,392] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.006 seconds
+[2020-01-17 10:54:01,385] {{scheduler_job.py:153}} INFO - Started process (PID=24883) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:01,403] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:01,405] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:01,405] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:01,408] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:01,409] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.024 seconds
+[2020-01-17 10:54:05,397] {{scheduler_job.py:153}} INFO - Started process (PID=24913) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:05,406] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:05,407] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:05,407] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:05,408] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:05,409] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds
+[2020-01-17 10:54:09,412] {{scheduler_job.py:153}} INFO - Started process (PID=24943) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:09,418] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:09,420] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:09,420] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:09,422] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:09,424] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.012 seconds
+[2020-01-17 10:54:13,423] {{scheduler_job.py:153}} INFO - Started process (PID=24972) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:13,436] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:13,443] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:13,443] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:13,447] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:13,449] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.026 seconds
+[2020-01-17 10:54:17,439] {{scheduler_job.py:153}} INFO - Started process (PID=25007) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:17,442] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:17,443] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:17,443] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:17,444] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:17,445] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.006 seconds
+[2020-01-17 10:54:21,442] {{scheduler_job.py:153}} INFO - Started process (PID=25037) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:21,455] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:21,456] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:21,456] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:21,457] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:21,458] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.015 seconds
+[2020-01-17 10:54:25,474] {{scheduler_job.py:153}} INFO - Started process (PID=25067) to work on /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:25,483] {{scheduler_job.py:1539}} INFO - Processing file /usr/local/airflow/dags/Gmail Data Pipeline.py for tasks to queue
+[2020-01-17 10:54:25,485] {{logging_mixin.py:112}} INFO - [2020-01-17 10:54:25,485] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:25,486] {{scheduler_job.py:1553}} WARNING - No viable dags retrieved from /usr/local/airflow/dags/Gmail Data Pipeline.py
+[2020-01-17 10:54:25,487] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/Gmail Data Pipeline.py took 0.013 seconds

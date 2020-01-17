@@ -1,0 +1,65 @@
+[2020-01-17 14:13:17,332] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:12:51.542889+00:00 [queued]>
+[2020-01-17 14:13:17,348] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:12:51.542889+00:00 [queued]>
+[2020-01-17 14:13:17,350] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 14:13:17,351] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2020-01-17 14:13:17,351] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 14:13:17,381] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): hello_task> on 2020-01-17T14:12:51.542889+00:00
+[2020-01-17 14:13:17,387] {{standard_task_runner.py:52}} INFO - Started process 20304 to run task
+[2020-01-17 14:13:17,465] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:17,464] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 14:13:17,484] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:12:51.542889+00:00 [running]> 7f68746faaa4
+[2020-01-17 14:13:17,496] {{python_operator.py:105}} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=getGmailAttachments
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-17T14:12:51.542889+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-01-17T14:12:51.542889+00:00
+[2020-01-17 14:13:17,506] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:17,505] {{__init__.py:44}} WARNING - file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/local/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+[2020-01-17 14:13:17,506] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:17,506] {{discovery.py:271}} INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+[2020-01-17 14:13:18,061] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:18,057] {{discovery.py:867}} INFO - URL being requested: GET https://www.googleapis.com/gmail/v1/users/me/messages?q=CSV_TEST_MAIL&alt=json
+[2020-01-17 14:13:18,579] {{logging_mixin.py:112}} INFO - ['16fb3b811e670f5f', '16fb3903589fed0b']
+[2020-01-17 14:13:18,583] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:18,582] {{discovery.py:867}} INFO - URL being requested: GET https://www.googleapis.com/gmail/v1/users/me/messages/16fb3b811e670f5f?alt=json
+[2020-01-17 14:13:19,104] {{logging_mixin.py:112}} INFO - {'partId': '0', 'mimeType': 'multipart/alternative', 'filename': '', 'headers': [{'name': 'Content-Type', 'value': 'multipart/alternative; boundary="_000_BN8PR14MB2548B47AB5C551D3499C9815A5310BN8PR14MB2548namp_"'}], 'body': {'size': 0}, 'parts': [{'partId': '0.0', 'mimeType': 'text/plain', 'filename': '', 'headers': [{'name': 'Content-Type', 'value': 'text/plain; charset="iso-8859-1"'}, {'name': 'Content-Transfer-Encoding', 'value': 'quoted-printable'}], 'body': {'size': 213, 'data': 'DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpGcm9tOiBHYW5lc2ggS2VkYXJpIDxnYW5lc2hrZWRhcmlAbGl2ZS5jb20-DQpTZW50OiBGcmlkYXksIEphbnVhcnkgMTcsIDIwMjAgNjoyMiBQTQ0KVG86IGdhbmVzaGtlZGFyaUB3aGl6LmFpIDxnYW5lc2hrZWRhcmlAd2hpei5haT4NClN1YmplY3Q6IENTVl9URVNUX01BSUwNCg0KQ1NWX1RFU1RfTUFJTA0K'}}, {'partId': '0.1', 'mimeType': 'text/html', 'filename': '', 'headers': [{'name': 'Content-Type', 'value': 'text/html; charset="iso-8859-1"'}, {'name': 'Content-Transfer-Encoding', 'value': 'quoted-printable'}], 'body': {'size': 1039, 'data': 'PGh0bWw-DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PWlzby04ODU5LTEiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIiBzdHlsZT0iZGlzcGxheTpub25lOyI-IFAge21hcmdpbi10b3A6MDttYXJnaW4tYm90dG9tOjA7fSA8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHkgZGlyPSJsdHIiPg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IENhbGlicmksIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyBjb2xvcjogcmdiKDAsIDAsIDApOyI-DQo8YnI-DQo8L2Rpdj4NCjxkaXY-DQo8ZGl2IGlkPSJhcHBlbmRvbnNlbmQiPjwvZGl2Pg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6Q2FsaWJyaSxIZWx2ZXRpY2Esc2Fucy1zZXJpZjsgZm9udC1zaXplOjEycHQ7IGNvbG9yOnJnYigwLDAsMCkiPg0KPGJyPg0KPC9kaXY-DQo8aHIgdGFiaW5kZXg9Ii0xIiBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7IHdpZHRoOjk4JSI-DQo8ZGl2IGlkPSJkaXZScGx5RndkTXNnIiBkaXI9Imx0ciI-PGZvbnQgZmFjZT0iQ2FsaWJyaSwgc2Fucy1zZXJpZiIgY29sb3I9IiMwMDAwMDAiIHN0eWxlPSJmb250LXNpemU6MTFwdCI-PGI-RnJvbTo8L2I-IEdhbmVzaCBLZWRhcmkgJmx0O2dhbmVzaGtlZGFyaUBsaXZlLmNvbSZndDs8YnI-DQo8Yj5TZW50OjwvYj4gRnJpZGF5LCBKYW51YXJ5IDE3LCAyMDIwIDY6MjIgUE08YnI-DQo8Yj5Ubzo8L2I-IGdhbmVzaGtlZGFyaUB3aGl6LmFpICZsdDtnYW5lc2hrZWRhcmlAd2hpei5haSZndDs8YnI-DQo8Yj5TdWJqZWN0OjwvYj4gQ1NWX1RFU1RfTUFJTDwvZm9udD4NCjxkaXY-Jm5ic3A7PC9kaXY-DQo8L2Rpdj4NCjxkaXYgZGlyPSJsdHIiPg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6Q2FsaWJyaSxIZWx2ZXRpY2Esc2Fucy1zZXJpZjsgZm9udC1zaXplOjEycHQ7IGNvbG9yOnJnYigwLDAsMCkiPg0KQ1NWX1RFU1RfTUFJTDxicj4NCjwvZGl2Pg0KPC9kaXY-DQo8L2Rpdj4NCjwvYm9keT4NCjwvaHRtbD4NCg=='}}]}
+[2020-01-17 14:13:19,106] {{logging_mixin.py:112}} INFO - {'partId': '1', 'mimeType': 'application/vnd.ms-excel', 'filename': 'Location.csv', 'headers': [{'name': 'Content-Type', 'value': 'application/vnd.ms-excel; name="Location.csv"'}, {'name': 'Content-Description', 'value': 'Location.csv'}, {'name': 'Content-Disposition', 'value': 'attachment; filename="Location.csv"; size=20869; creation-date="Fri, 17 Jan 2020 13:36:09 GMT"; modification-date="Fri, 17 Jan 2020 13:36:18 GMT"'}, {'name': 'Content-Transfer-Encoding', 'value': 'base64'}], 'body': {'attachmentId': 'ANGjdJ_OiOBevQk9sYKkAiKDTZR3_j2S8eNPOgc2E_04_9PNC6BkFZ1kHjvYhHLD95wIGurbLiLKT9-D-7OMTDimCzLcL_j57q-TEZEqPr7uABPhHTMtRUq9i0ZPLRK31_UaOs5_4I-G1VNT6ouk7GS50kPbrPhcXyNYqow1dX9AGOfMWAokJvjPwv69WlurBMk7fGVABdT-pTiFDRFZU3U3hBZfk8yJuyTOmIvaGBciMPe4vQWpx3Ea4_kEVDvXtL7vvOc0uroyf1PeLgc17LT1nVkIJS1oDYeGv96OsQ-zTJttoI1zEOVHykuq4ktXqAt2ti_byqBgKdyz6lADDJxWIKW5G2W34WA1y6oKn5LNc8_3Ifvk8ZX8WwbwmICK8Bjc_ZuswZSZ6YrJTjAN', 'size': 20869}}
+[2020-01-17 14:13:19,114] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:19,114] {{discovery.py:867}} INFO - URL being requested: GET https://www.googleapis.com/gmail/v1/users/me/messages/16fb3b811e670f5f/attachments/ANGjdJ_OiOBevQk9sYKkAiKDTZR3_j2S8eNPOgc2E_04_9PNC6BkFZ1kHjvYhHLD95wIGurbLiLKT9-D-7OMTDimCzLcL_j57q-TEZEqPr7uABPhHTMtRUq9i0ZPLRK31_UaOs5_4I-G1VNT6ouk7GS50kPbrPhcXyNYqow1dX9AGOfMWAokJvjPwv69WlurBMk7fGVABdT-pTiFDRFZU3U3hBZfk8yJuyTOmIvaGBciMPe4vQWpx3Ea4_kEVDvXtL7vvOc0uroyf1PeLgc17LT1nVkIJS1oDYeGv96OsQ-zTJttoI1zEOVHykuq4ktXqAt2ti_byqBgKdyz6lADDJxWIKW5G2W34WA1y6oKn5LNc8_3Ifvk8ZX8WwbwmICK8Bjc_ZuswZSZ6YrJTjAN?alt=json
+[2020-01-17 14:13:19,708] {{taskinstance.py:1088}} ERROR - [Errno 2] No such file or directory: './files/Location.csv'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 955, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/email.py", line 63, in GetAttachments
+    with open(path, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './files/Location.csv'
+[2020-01-17 14:13:19,718] {{taskinstance.py:1119}} INFO - Marking task as FAILED.
+[2020-01-17 14:13:27,318] {{logging_mixin.py:112}} INFO - [2020-01-17 14:13:27,318] {{local_task_job.py:103}} INFO - Task exited with return code 1

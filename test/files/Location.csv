@@ -1,0 +1,291 @@
+ID	CLASS	CODE	NAME	DESC	LEVEL	SYN1	SYN2	SYN3	SYN4	SYN5	SYN6	SYN7	SYN8	SYN9	SYN10	SYN11	SYN12	SYN13	SYN14
+40000000	Location	Nevada	Nevada	Nevada	State	NV	Nevada (Nevada)												
+40000001	Location	Georgia	Georgia	Georgia	State	GA	Georgia (Georgia)												
+40000002	Location	Minnesota	Minnesota	Minnesota	State	MN	Minnesota (Minnesota)												
+40000003	Location	Ohio	Ohio	Ohio	State	OH	Ohio (Ohio)												
+40000004	Location	California	California	California	State	CA	California (California)												
+40000005	Location	Florida	Florida	Florida	State	FL	Florida (Florida)												
+40000006	Location	Virginia	Virginia	Virginia	State	VA	Virginia (Virginia)												
+40000007	Location	Michigan	Michigan	Michigan	State	MI	Michigan (Michigan)												
+40000008	Location	Indiana	Indiana	Indiana	State	IN	Indiana (Indiana)												
+40000009	Location	Wisconsin	Wisconsin	Wisconsin	State	WI	Wisconsin (Wisconsin)												
+40000010	Location	South Dakota	South Dakota	South Dakota	State	SD	South Dakota (South Dakota)												
+40000011	Location	Illinois	Illinois	Illinois	State	IL	Illinois (Illinois)												
+40000012	Location	Missouri	Missouri	Missouri	State	MO	Missouri (Missouri)												
+40000013	Location	Nebraska	Nebraska	Nebraska	State	NE	Nebraska (Nebraska)												
+40000014	Location	Arkansas	Arkansas	Arkansas	State	AR	Arkansas (Arkansas)												
+40000015	Location	Oklahoma	Oklahoma	Oklahoma	State	OK	Oklahoma (Oklahoma)												
+40000016	Location	Texas	Texas	Texas	State	TX	Texas (Texas)												
+40000017	Location	Colorado	Colorado	Colorado	State	CO	Colorado (Colorado)												
+40000018	Location	Utah	Utah	Utah	State	UT	Utah (Utah)												
+40000019	Location	Arizona	Arizona	Arizona	State	AZ	Arizona (Arizona)												
+40000020	Location	Oregon	Oregon	Oregon	State	OR	Oregon (Oregon)												
+40000021	Location	Pennsylvania	Pennsylvania	Pennsylvania	State	PA	Pennsylvania (Pennsylvania)												
+40000022	Location	New York	New York	New York	State	NY	New York (New York)												
+40000023	Location	Massachusetts	Massachusetts	Massachusetts	State	MA	Massachusetts (Massachusetts)												
+40000024	Location	New Mexico	New Mexico	New Mexico	State	NM	New Mexico (New Mexico)												
+40000025	Location	North Carolina	North Carolina	North Carolina	State	NC	North Carolina (North Carolina)												
+40000026	Location	Louisiana	Louisiana	Louisiana	State	LA	Louisiana (Louisiana)												
+40000027	Location	Tennessee	Tennessee	Tennessee	State	TN	Tennessee (Tennessee)												
+40000028	Location	Montana	Montana	Montana	State	MT	Montana (Montana)												
+40000029	Location	Alabama	Alabama	Alabama	State	AL	Alabama (Alabama)												
+40000030	Location	Maryland	Maryland	Maryland	State	MD	Maryland (Maryland)												
+40000031	Location	Kansas	Kansas	Kansas	State	KS	Kansas (Kansas)												
+40000032	Location	Washington	Washington	Washington	State	WA	Washington (Washington)												
+40000033	Location	Puerto Rico	Puerto Rico	Puerto Rico	State	PR	Puerto Rico (Puerto Rico)												
+40000034	Location	Connecticut	Connecticut	Connecticut	State	CT	Connecticut (Connecticut)												
+40000035	Location	Mississippi	Mississippi	Mississippi	State	MS	Mississippi (Mississippi)												
+40000036	Location	New Jersey	New Jersey	New Jersey	State	NJ	New Jersey (New Jersey)												
+40000037	Location	Idaho	Idaho	Idaho	State	ID	Idaho (Idaho)												
+40000038	Location	District of Columbia	District of Columbia	District of Columbia	State	DC	District of Columbia (District of Columbia)												
+40000039	Location	Delaware	Delaware	Delaware	State	DE	Delaware (Delaware)												
+40000040	Location	New Hampshire	New Hampshire	New Hampshire	State	NH	New Hampshire (New Hampshire)												
+40000041	Location	Kentucky	Kentucky	Kentucky	State	KY	Kentucky (Kentucky)												
+40000042	Location	HENDERSON	HENDERSON	HENDERSON	City														
+40000043	Location	LAS VEGAS	LAS VEGAS	LAS VEGAS	City														
+40000044	Location	RENO	RENO	RENO	City														
+40000045	Location	MINDEN	MINDEN	MINDEN	City														
+40000046	Location	MILLEDGEVILLE	MILLEDGEVILLE	MILLEDGEVILLE	City														
+40000047	Location	MACON	MACON	MACON	City														
+40000048	Location	ST LOUIS PARK	ST LOUIS PARK	ST LOUIS PARK	City														
+40000049	Location	ROCHESTER	ROCHESTER	ROCHESTER	City														
+40000050	Location	BELLE PLAINE	BELLE PLAINE	BELLE PLAINE	City														
+40000051	Location	SPRINGDALE	SPRINGDALE	SPRINGDALE	City														
+40000052	Location	CLEVELAND	CLEVELAND	CLEVELAND	City														
+40000053	Location	MANTUA	MANTUA	MANTUA	City														
+40000054	Location	AKRON	AKRON	AKRON	City														
+40000055	Location	CANTON	CANTON	CANTON	City														
+40000056	Location	CINCINNATI	CINCINNATI	CINCINNATI	City														
+40000057	Location	PAINESVILLE	PAINESVILLE	PAINESVILLE	City														
+40000058	Location	BEACHWOOD	BEACHWOOD	BEACHWOOD	City														
+40000059	Location	INDEPENDENCE	INDEPENDENCE	INDEPENDENCE	City														
+40000060	Location	SYLVANIA	SYLVANIA	SYLVANIA	City														
+40000061	Location	TOLEDO	TOLEDO	TOLEDO	City														
+40000062	Location	BEDFORD HEIGHTS	BEDFORD HEIGHTS	BEDFORD HEIGHTS	City														
+40000063	Location	HIRAM	HIRAM	HIRAM	City														
+40000064	Location	TALLMADGE	TALLMADGE	TALLMADGE	City														
+40000065	Location	HAWTHORNE	HAWTHORNE	HAWTHORNE	City														
+40000066	Location	CULVER CITY	CULVER CITY	CULVER CITY	City														
+40000067	Location	ROSEMEAD	ROSEMEAD	ROSEMEAD	City														
+40000068	Location	ALAMEDA	ALAMEDA	ALAMEDA	City														
+40000069	Location	CONCORD	CONCORD	CONCORD	City														
+40000070	Location	SOUTH SAN FRANCISCO	SOUTH SAN FRANCISCO	SOUTH SAN FRANCISCO	City														
+40000071	Location	PASADENA	PASADENA	PASADENA	City														
+40000072	Location	GLENDALE	GLENDALE	GLENDALE	City														
+40000073	Location	UPLAND	UPLAND	UPLAND	City														
+40000074	Location	SAN JOSE	SAN JOSE	SAN JOSE	City														
+40000075	Location	FREMONT	FREMONT	FREMONT	City														
+40000076	Location	DOWNEY	DOWNEY	DOWNEY	City														
+40000077	Location	NEWPORT BEACH	NEWPORT BEACH	NEWPORT BEACH	City														
+40000078	Location	RIO LINDA	RIO LINDA	RIO LINDA	City														
+40000079	Location	LODI	LODI	LODI	City														
+40000080	Location	SACRAMENTO	SACRAMENTO	SACRAMENTO	City														
+40000081	Location	STOCKTON	STOCKTON	STOCKTON	City														
+40000082	Location	WATERFORD	WATERFORD	WATERFORD	City														
+40000083	Location	OAKLAND	OAKLAND	OAKLAND	City														
+40000084	Location	LOMA LINDA	LOMA LINDA	LOMA LINDA	City														
+40000085	Location	BODEGA	BODEGA	BODEGA	City														
+40000086	Location	VALLEY FORD	VALLEY FORD	VALLEY FORD	City														
+40000087	Location	SUNNYVALE	SUNNYVALE	SUNNYVALE	City														
+40000088	Location	CHESTER	CHESTER	CHESTER	City														
+40000089	Location	LOS ANGELES	LOS ANGELES	LOS ANGELES	City														
+40000090	Location	CERRITOS	CERRITOS	CERRITOS	City														
+40000091	Location	LONG BEACH	LONG BEACH	LONG BEACH	City														
+40000092	Location	ORLANDO	ORLANDO	ORLANDO	City														
+40000093	Location	MIAMI	MIAMI	MIAMI	City														
+40000094	Location	PALM CITY	PALM CITY	PALM CITY	City														
+40000095	Location	STUART	STUART	STUART	City														
+40000096	Location	PORT SAINT LUCIE	PORT SAINT LUCIE	PORT SAINT LUCIE	City														
+40000097	Location	CLEARWATER	CLEARWATER	CLEARWATER	City														
+40000098	Location	BRADENTON	BRADENTON	BRADENTON	City														
+40000099	Location	TAMPA	TAMPA	TAMPA	City														
+40000100	Location	WAUCHULA	WAUCHULA	WAUCHULA	City														
+40000101	Location	CHIPLEY	CHIPLEY	CHIPLEY	City														
+40000102	Location	FORT MEADE	FORT MEADE	FORT MEADE	City														
+40000103	Location	JACKSONVILLE	JACKSONVILLE	JACKSONVILLE	City														
+40000104	Location	ORANGE PARK	ORANGE PARK	ORANGE PARK	City														
+40000105	Location	BRANDON	BRANDON	BRANDON	City														
+40000106	Location	FAIRFAX	FAIRFAX	FAIRFAX	City														
+40000107	Location	RICHMOND	RICHMOND	RICHMOND	City														
+40000108	Location	MECHANICSVILLE	MECHANICSVILLE	MECHANICSVILLE	City														
+40000109	Location	MIDLOTHIAN	MIDLOTHIAN	MIDLOTHIAN	City														
+40000110	Location	EMPORIA	EMPORIA	EMPORIA	City														
+40000111	Location	TAPPAHANNOCK	TAPPAHANNOCK	TAPPAHANNOCK	City														
+40000112	Location	PRINCE GEORGE	PRINCE GEORGE	PRINCE GEORGE	City														
+40000113	Location	WOODSTOCK	WOODSTOCK	WOODSTOCK	City														
+40000114	Location	WINCHESTER	WINCHESTER	WINCHESTER	City														
+40000115	Location	CHARLOTTESVILLE	CHARLOTTESVILLE	CHARLOTTESVILLE	City														
+40000116	Location	DETROIT	DETROIT	DETROIT	City														
+40000117	Location	FARMINGTON	FARMINGTON	FARMINGTON	City														
+40000118	Location	NOVI	NOVI	NOVI	City														
+40000119	Location	MADISON HEIGHTS	MADISON HEIGHTS	MADISON HEIGHTS	City														
+40000120	Location	TROY	TROY	TROY	City														
+40000121	Location	SOUTHFIELD	SOUTHFIELD	SOUTHFIELD	City														
+40000122	Location	PORT HURON	PORT HURON	PORT HURON	City														
+40000123	Location	ROCHESTER HILLS	ROCHESTER HILLS	ROCHESTER HILLS	City														
+40000124	Location	NORTHVILLE	NORTHVILLE	NORTHVILLE	City														
+40000125	Location	ANN ARBOR	ANN ARBOR	ANN ARBOR	City														
+40000126	Location	JACKSON	JACKSON	JACKSON	City														
+40000127	Location	KALAMAZOO	KALAMAZOO	KALAMAZOO	City														
+40000128	Location	YPSILANTI	YPSILANTI	YPSILANTI	City														
+40000129	Location	INDIANAPOLIS	INDIANAPOLIS	INDIANAPOLIS	City														
+40000130	Location	WATERTOWN	WATERTOWN	WATERTOWN	City														
+40000131	Location	RACINE	RACINE	RACINE	City														
+40000132	Location	SUMMIT	SUMMIT	SUMMIT	City														
+40000133	Location	JOHNSON CREEK	JOHNSON CREEK	JOHNSON CREEK	City														
+40000134	Location	SIOUX FALLS	SIOUX FALLS	SIOUX FALLS	City														
+40000135	Location	BOX ELDER	BOX ELDER	BOX ELDER	City														
+40000136	Location	RAPID CITY	RAPID CITY	RAPID CITY	City														
+40000137	Location	NORTHBROOK	NORTHBROOK	NORTHBROOK	City														
+40000138	Location	AURORA	AURORA	AURORA	City														
+40000139	Location	CHICAGO	CHICAGO	CHICAGO	City														
+40000140	Location	HILLSIDE	HILLSIDE	HILLSIDE	City														
+40000141	Location	ALSIP	ALSIP	ALSIP	City														
+40000142	Location	PARK RIDGE	PARK RIDGE	PARK RIDGE	City														
+40000143	Location	GLENVIEW	GLENVIEW	GLENVIEW	City														
+40000144	Location	GLEN ELLYN	GLEN ELLYN	GLEN ELLYN	City														
+40000145	Location	SAINT LOUIS	SAINT LOUIS	SAINT LOUIS	City														
+40000146	Location	ARNOLD	ARNOLD	ARNOLD	City														
+40000147	Location	COLUMBIA	COLUMBIA	COLUMBIA	City														
+40000148	Location	KANSAS CITY	KANSAS CITY	KANSAS CITY	City														
+40000149	Location	SAINT PETERS	SAINT PETERS	SAINT PETERS	City														
+40000150	Location	CHESTERFIELD	CHESTERFIELD	CHESTERFIELD	City														
+40000151	Location	LINCOLN	LINCOLN	LINCOLN	City														
+40000152	Location	CONWAY	CONWAY	CONWAY	City														
+40000153	Location	LITTLE ROCK	LITTLE ROCK	LITTLE ROCK	City														
+40000154	Location	NORTH LITTLE ROCK	NORTH LITTLE ROCK	NORTH LITTLE ROCK	City														
+40000155	Location	MALVERN	MALVERN	MALVERN	City														
+40000156	Location	BRYANT	BRYANT	BRYANT	City														
+40000157	Location	SHERIDAN	SHERIDAN	SHERIDAN	City														
+40000158	Location	MAUMELLE	MAUMELLE	MAUMELLE	City														
+40000159	Location	TULSA	TULSA	TULSA	City														
+40000160	Location	OKLAHOMA CITY	OKLAHOMA CITY	OKLAHOMA CITY	City														
+40000161	Location	IRVING	IRVING	IRVING	City														
+40000162	Location	HOUSTON	HOUSTON	HOUSTON	City														
+40000163	Location	DALLAS	DALLAS	DALLAS	City														
+40000164	Location	ROUND ROCK	ROUND ROCK	ROUND ROCK	City														
+40000165	Location	AUSTIN	AUSTIN	AUSTIN	City														
+40000166	Location	SOUTHLAKE	SOUTHLAKE	SOUTHLAKE	City														
+40000167	Location	BELTON	BELTON	BELTON	City														
+40000168	Location	TEMPLE	TEMPLE	TEMPLE	City														
+40000169	Location	COLLEGE STATION	COLLEGE STATION	COLLEGE STATION	City														
+40000170	Location	ALLEN	ALLEN	ALLEN	City														
+40000171	Location	KLEIN	KLEIN	KLEIN	City														
+40000172	Location	MIDLAND	MIDLAND	MIDLAND	City														
+40000173	Location	DECATUR	DECATUR	DECATUR	City														
+40000174	Location	BRIDGEPORT	BRIDGEPORT	BRIDGEPORT	City														
+40000175	Location	LAKEWOOD	LAKEWOOD	LAKEWOOD	City														
+40000176	Location	DENVER	DENVER	DENVER	City														
+40000177	Location	LITTLETON	LITTLETON	LITTLETON	City														
+40000178	Location	HIGHLANDS RANCH	HIGHLANDS RANCH	HIGHLANDS RANCH	City														
+40000179	Location	PUEBLO	PUEBLO	PUEBLO	City														
+40000180	Location	COLORADO SPRINGS	COLORADO SPRINGS	COLORADO SPRINGS	City														
+40000181	Location	FORT CARSON	FORT CARSON	FORT CARSON	City														
+40000182	Location	MAGNA	MAGNA	MAGNA	City														
+40000183	Location	SOUTH JORDAN	SOUTH JORDAN	SOUTH JORDAN	City														
+40000184	Location	CEDAR CITY	CEDAR CITY	CEDAR CITY	City														
+40000185	Location	IVINS	IVINS	IVINS	City														
+40000186	Location	PHOENIX	PHOENIX	PHOENIX	City														
+40000187	Location	GLOBE	GLOBE	GLOBE	City														
+40000188	Location	SCOTTSDALE	SCOTTSDALE	SCOTTSDALE	City														
+40000189	Location	TUCSON	TUCSON	TUCSON	City														
+40000190	Location	PORTLAND	PORTLAND	PORTLAND	City														
+40000191	Location	ASTORIA	ASTORIA	ASTORIA	City														
+40000192	Location	LEBANON	LEBANON	LEBANON	City														
+40000193	Location	FRACKVILLE	FRACKVILLE	FRACKVILLE	City														
+40000194	Location	CHAMBERSBURG	CHAMBERSBURG	CHAMBERSBURG	City														
+40000195	Location	SHAVERTOWN	SHAVERTOWN	SHAVERTOWN	City														
+40000196	Location	WILKES BARRE	WILKES BARRE	WILKES BARRE	City														
+40000197	Location	BEAR CREEK TOWNSHIP	BEAR CREEK TOWNSHIP	BEAR CREEK TOWNSHIP	City														
+40000198	Location	BRYN MAWR	BRYN MAWR	BRYN MAWR	City														
+40000199	Location	VILLANOVA	VILLANOVA	VILLANOVA	City														
+40000200	Location	PAOLI	PAOLI	PAOLI	City														
+40000201	Location	PENN VALLEY	PENN VALLEY	PENN VALLEY	City														
+40000202	Location	PHILADELPHIA	PHILADELPHIA	PHILADELPHIA	City														
+40000203	Location	GLADWYNE	GLADWYNE	GLADWYNE	City														
+40000204	Location	DANVILLE	DANVILLE	DANVILLE	City														
+40000205	Location	PITTSBURGH	PITTSBURGH	PITTSBURGH	City														
+40000206	Location	NEWTOWN	NEWTOWN	NEWTOWN	City														
+40000207	Location	EASTON	EASTON	EASTON	City														
+40000208	Location	LANCASTER	LANCASTER	LANCASTER	City														
+40000209	Location	WILLOW STREET	WILLOW STREET	WILLOW STREET	City														
+40000210	Location	BETHEL PARK	BETHEL PARK	BETHEL PARK	City														
+40000211	Location	ELMIRA	ELMIRA	ELMIRA	City														
+40000212	Location	MOUNT SINAI	MOUNT SINAI	MOUNT SINAI	City														
+40000213	Location	FOREST HILLS	FOREST HILLS	FOREST HILLS	City														
+40000214	Location	BRONX	BRONX	BRONX	City														
+40000215	Location	WOODBURY	WOODBURY	WOODBURY	City														
+40000216	Location	GARDEN CITY	GARDEN CITY	GARDEN CITY	City														
+40000217	Location	ELMHURST	ELMHURST	ELMHURST	City														
+40000218	Location	FLUSHING	FLUSHING	FLUSHING	City														
+40000219	Location	NEW YORK	NEW YORK	NEW YORK	City														
+40000220	Location	HYDE PARK	HYDE PARK	HYDE PARK	City														
+40000221	Location	WARSAW	WARSAW	WARSAW	City														
+40000222	Location	BRIARCLIFF MANOR	BRIARCLIFF MANOR	BRIARCLIFF MANOR	City														
+40000223	Location	SLEEPY HOLLOW	SLEEPY HOLLOW	SLEEPY HOLLOW	City														
+40000224	Location	BRIARWOOD	BRIARWOOD	BRIARWOOD	City														
+40000225	Location	BROOKLYN	BROOKLYN	BROOKLYN	City														
+40000226	Location	JAMAICA	JAMAICA	JAMAICA	City														
+40000227	Location	MONROE	MONROE	MONROE	City														
+40000228	Location	WARWICK	WARWICK	WARWICK	City														
+40000229	Location	NORTH ANDOVER	NORTH ANDOVER	NORTH ANDOVER	City														
+40000230	Location	TULAROSA	TULAROSA	TULAROSA	City														
+40000231	Location	RIO RANCHO	RIO RANCHO	RIO RANCHO	City														
+40000232	Location	MOUNT OLIVE	MOUNT OLIVE	MOUNT OLIVE	City														
+40000233	Location	GREENSBORO	GREENSBORO	GREENSBORO	City														
+40000234	Location	WINSTON SALEM	WINSTON SALEM	WINSTON SALEM	City														
+40000235	Location	NEWTON GROVE	NEWTON GROVE	NEWTON GROVE	City														
+40000236	Location	CLINTON	CLINTON	CLINTON	City														
+40000237	Location	MORRISVILLE	MORRISVILLE	MORRISVILLE	City														
+40000238	Location	HICKORY	HICKORY	HICKORY	City														
+40000239	Location	RUSTON	RUSTON	RUSTON	City														
+40000240	Location	NEW IBERIA	NEW IBERIA	NEW IBERIA	City														
+40000241	Location	LAFAYETTE	LAFAYETTE	LAFAYETTE	City														
+40000242	Location	YOUNGSVILLE	YOUNGSVILLE	YOUNGSVILLE	City														
+40000243	Location	BROUSSARD	BROUSSARD	BROUSSARD	City														
+40000244	Location	MANDEVILLE	MANDEVILLE	MANDEVILLE	City														
+40000245	Location	NASHVILLE	NASHVILLE	NASHVILLE	City														
+40000246	Location	ALBERTON	ALBERTON	ALBERTON	City														
+40000247	Location	MISSOULA	MISSOULA	MISSOULA	City														
+40000248	Location	FORT PAYNE	FORT PAYNE	FORT PAYNE	City														
+40000249	Location	OPELIKA	OPELIKA	OPELIKA	City														
+40000250	Location	ROCKVILLE	ROCKVILLE	ROCKVILLE	City														
+40000251	Location	FREDERICK	FREDERICK	FREDERICK	City														
+40000252	Location	CALVERTON	CALVERTON	CALVERTON	City														
+40000253	Location	BALTIMORE	BALTIMORE	BALTIMORE	City														
+40000254	Location	LEONARDTOWN	LEONARDTOWN	LEONARDTOWN	City														
+40000255	Location	SYKESVILLE	SYKESVILLE	SYKESVILLE	City														
+40000256	Location	NOTTINGHAM	NOTTINGHAM	NOTTINGHAM	City														
+40000257	Location	BETHESDA	BETHESDA	BETHESDA	City														
+40000258	Location	SHAWNEE	SHAWNEE	SHAWNEE	City														
+40000259	Location	SHAWNEE MISSION	SHAWNEE MISSION	SHAWNEE MISSION	City														
+40000260	Location	SHWANEE MISSION	SHWANEE MISSION	SHWANEE MISSION	City														
+40000261	Location	OVERLAND PARK	OVERLAND PARK	OVERLAND PARK	City														
+40000262	Location	SPOKANE	SPOKANE	SPOKANE	City														
+40000263	Location	LIBERTY LAKE	LIBERTY LAKE	LIBERTY LAKE	City														
+40000264	Location	NINE MILE FALLS	NINE MILE FALLS	NINE MILE FALLS	City														
+40000265	Location	PORT ORCHARD	PORT ORCHARD	PORT ORCHARD	City														
+40000266	Location	BREMERTON	BREMERTON	BREMERTON	City														
+40000267	Location	TACOMA	TACOMA	TACOMA	City														
+40000268	Location	DUPONT	DUPONT	DUPONT	City														
+40000269	Location	WENATCHEE	WENATCHEE	WENATCHEE	City														
+40000270	Location	MANATI	MANATI	MANATI	City														
+40000271	Location	NEW BRITAIN	NEW BRITAIN	NEW BRITAIN	City														
+40000272	Location	NEW HAVEN	NEW HAVEN	NEW HAVEN	City														
+40000273	Location	OXFORD	OXFORD	OXFORD	City														
+40000274	Location	RIDGELAND	RIDGELAND	RIDGELAND	City														
+40000275	Location	CEDAR KNOLLS	CEDAR KNOLLS	CEDAR KNOLLS	City														
+40000276	Location	MOUNTAIN LKS	MOUNTAIN LKS	MOUNTAIN LKS	City														
+40000277	Location	FLORHAM PARK	FLORHAM PARK	FLORHAM PARK	City														
+40000278	Location	WHIPPANY	WHIPPANY	WHIPPANY	City														
+40000279	Location	MORRISTOWN	MORRISTOWN	MORRISTOWN	City														
+40000280	Location	NEW BRUNSWICK	NEW BRUNSWICK	NEW BRUNSWICK	City														
+40000281	Location	SOUTH PLAINFIELD	SOUTH PLAINFIELD	SOUTH PLAINFIELD	City														
+40000282	Location	VERNON	VERNON	VERNON	City														
+40000283	Location	BOISE	BOISE	BOISE	City														
+40000284	Location	MERIDIAN	MERIDIAN	MERIDIAN	City														
+40000285	Location	WASHINGTON	WASHINGTON	WASHINGTON	City														
+40000286	Location	WILMINGTON	WILMINGTON	WILMINGTON	City														
+40000287	Location	NEW CASTLE	NEW CASTLE	NEW CASTLE	City														
+40000288	Location	SOMERSET	SOMERSET	SOMERSET	City														
+40000289	Location	BOWLING GREEN	BOWLING GREEN	BOWLING GREEN	City														

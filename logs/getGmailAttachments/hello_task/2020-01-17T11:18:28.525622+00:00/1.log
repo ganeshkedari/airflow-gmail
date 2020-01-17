@@ -1,0 +1,36 @@
+[2020-01-17 11:18:50,371] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T11:18:28.525622+00:00 [queued]>
+[2020-01-17 11:18:50,392] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T11:18:28.525622+00:00 [queued]>
+[2020-01-17 11:18:50,393] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 11:18:50,393] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2020-01-17 11:18:50,394] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 11:18:50,416] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): hello_task> on 2020-01-17T11:18:28.525622+00:00
+[2020-01-17 11:18:50,419] {{standard_task_runner.py:52}} INFO - Started process 3905 to run task
+[2020-01-17 11:18:50,491] {{logging_mixin.py:112}} INFO - [2020-01-17 11:18:50,490] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 11:18:50,511] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: getGmailAttachments.hello_task 2020-01-17T11:18:28.525622+00:00 [running]> 7f68746faaa4
+[2020-01-17 11:18:50,526] {{python_operator.py:105}} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=getGmailAttachments
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-17T11:18:28.525622+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-01-17T11:18:28.525622+00:00
+[2020-01-17 11:18:53,327] {{taskinstance.py:1088}} ERROR - SELECT command error: BAD [b'Could not parse command']
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 955, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/email.py", line 19, in fetchGmailAttachments
+    imapSession.select('[Gmail]/All Mail')
+  File "/usr/local/lib/python3.7/imaplib.py", line 745, in select
+    typ, dat = self._simple_command(name, mailbox)
+  File "/usr/local/lib/python3.7/imaplib.py", line 1196, in _simple_command
+    return self._command_complete(name, self._command(name, *args))
+  File "/usr/local/lib/python3.7/imaplib.py", line 1027, in _command_complete
+    raise self.error('%s command error: %s %s' % (name, typ, data))
+imaplib.IMAP4.error: SELECT command error: BAD [b'Could not parse command']
+[2020-01-17 11:18:53,339] {{taskinstance.py:1119}} INFO - Marking task as FAILED.
+[2020-01-17 11:19:00,369] {{logging_mixin.py:112}} INFO - [2020-01-17 11:19:00,369] {{local_task_job.py:103}} INFO - Task exited with return code 1

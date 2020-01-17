@@ -1,0 +1,14 @@
+[2020-01-17 10:04:16.463] [exthost] [info] extension host started
+[2020-01-17 10:04:16.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-17 10:04:16.565] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/debug-auto-launch/dist/extension
+[2020-01-17 10:04:16.578] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-17 10:04:16.579] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/emmet/dist/extension
+[2020-01-17 10:04:16.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-17 10:04:16.641] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/git/dist/main
+[2020-01-17 10:04:16.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-17 10:04:16.730] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/merge-conflict/dist/extension
+[2020-01-17 10:04:16.734] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-01-17 10:04:16.735] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/search-result/dist/extension.js
+[2020-01-17 10:04:16.738] [exthost] [info] eager extensions activated
+[2020-01-17 10:33:31.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-01-17 10:33:31.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/airflow/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/python/dist/pythonMain

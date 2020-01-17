@@ -1,0 +1,41 @@
+[2020-01-17 10:04:13.765] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-01-17 10:04:13.765] [remoteagent] [info] Extension host agent started.
+[2020-01-17 10:04:14.912] [remoteagent] [info] [::ffff:127.0.0.1][9b12b85c][ManagementConnection] New connection established.
+[2020-01-17 10:04:15.610] [remoteagent] [info] [::ffff:127.0.0.1][b4e06769][ExtensionHostConnection] New connection established.
+[2020-01-17 10:04:15.632] [remoteagent] [info] [::ffff:127.0.0.1][b4e06769][ExtensionHostConnection] <2227> Launched Extension Host Process.
+[2020-01-17 13:41:02.554] [remoteagent] [info] Installing extension: ms-python.python
+[2020-01-17 13:41:14.960] [remoteagent] [info] Installing extension: kevinrose.vsc-python-indent
+[2020-01-17 13:41:15.726] [remoteagent] [info] Downloaded extension: kevinrose.vsc-python-indent /tmp/9092cd22-bb51-4543-8c65-cc2f2c4007d2
+[2020-01-17 13:41:15.800] [remoteagent] [info] Extracted extension to /usr/local/airflow/.vscode-server/extensions/.kevinrose.vsc-python-indent-1.8.1: kevinrose.vsc-python-indent
+[2020-01-17 13:41:15.800] [remoteagent] [info] Renamed to /usr/local/airflow/.vscode-server/extensions/kevinrose.vsc-python-indent-1.8.1
+[2020-01-17 13:41:15.804] [remoteagent] [info] Installation completed. kevinrose.vsc-python-indent
+[2020-01-17 13:41:15.807] [remoteagent] [info] Extensions installed successfully: kevinrose.vsc-python-indent
+[2020-01-17 13:41:18.369] [remoteagent] [info] [::ffff:127.0.0.1][9b12b85c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-01-17 13:41:19.399] [remoteagent] [info] [::ffff:127.0.0.1][b4e06769][ExtensionHostConnection] <2227> Extension Host Process exited with code: 0, signal: null.
+[2020-01-17 13:41:20.534] [remoteagent] [info] Downloaded extension: ms-python.python /tmp/e34c01b4-d111-4991-981e-5da7529b8094
+[2020-01-17 13:41:23.661] [remoteagent] [info] [::ffff:127.0.0.1][ba70ad51][ExtensionHostConnection] New connection established.
+[2020-01-17 13:41:23.705] [remoteagent] [info] [::ffff:127.0.0.1][ba70ad51][ExtensionHostConnection] <4796> Launched Extension Host Process.
+[2020-01-17 13:41:24.314] [remoteagent] [info] [::ffff:127.0.0.1][765606d5][ManagementConnection] New connection established.
+[2020-01-17 13:41:33.044] [remoteagent] [info] Extracted extension to /usr/local/airflow/.vscode-server/extensions/.ms-python.python-2020.1.58038: ms-python.python
+[2020-01-17 13:41:33.046] [remoteagent] [info] Renamed to /usr/local/airflow/.vscode-server/extensions/ms-python.python-2020.1.58038
+[2020-01-17 13:41:33.056] [remoteagent] [info] Installation completed. ms-python.python
+[2020-01-17 13:41:33.065] [remoteagent] [info] Extensions installed successfully: ms-python.python
+[2020-01-17 13:42:23.565] [remoteagent] [info] [::ffff:127.0.0.1][765606d5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-01-17 13:42:24.617] [remoteagent] [info] [::ffff:127.0.0.1][ba70ad51][ExtensionHostConnection] <4796> Extension Host Process exited with code: 0, signal: null.
+[2020-01-17 13:42:26.588] [remoteagent] [info] [::ffff:127.0.0.1][e4fb4fa2][ExtensionHostConnection] New connection established.
+[2020-01-17 13:42:26.597] [remoteagent] [info] [::ffff:127.0.0.1][e4fb4fa2][ExtensionHostConnection] <5588> Launched Extension Host Process.
+[2020-01-17 13:42:27.168] [remoteagent] [info] [::ffff:127.0.0.1][4a4831f6][ManagementConnection] New connection established.
+[2020-01-17 14:22:53.056] [remoteagent] [info] [::ffff:127.0.0.1][4a4831f6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-01-17 14:22:54.538] [remoteagent] [info] [::ffff:127.0.0.1][e4fb4fa2][ExtensionHostConnection] <5588> Extension Host Process exited with code: 0, signal: null.
+[2020-01-17 14:52:59.532] [remoteagent] [info] [::ffff:127.0.0.1][defd67d8][ExtensionHostConnection] New connection established.
+[2020-01-17 14:52:59.552] [remoteagent] [info] [::ffff:127.0.0.1][defd67d8][ExtensionHostConnection] <25969> Launched Extension Host Process.
+[2020-01-17 14:53:00.070] [remoteagent] [info] [::ffff:127.0.0.1][340f103b][ManagementConnection] New connection established.

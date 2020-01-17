@@ -1,0 +1,49 @@
+[2020-01-17 14:10:05,288] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:09:42.785109+00:00 [queued]>
+[2020-01-17 14:10:05,303] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:09:42.785109+00:00 [queued]>
+[2020-01-17 14:10:05,304] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 14:10:05,304] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2020-01-17 14:10:05,304] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 14:10:05,327] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): hello_task> on 2020-01-17T14:09:42.785109+00:00
+[2020-01-17 14:10:05,331] {{standard_task_runner.py:52}} INFO - Started process 18840 to run task
+[2020-01-17 14:10:05,392] {{logging_mixin.py:112}} INFO - [2020-01-17 14:10:05,392] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 14:10:05,408] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: getGmailAttachments.hello_task 2020-01-17T14:09:42.785109+00:00 [running]> 7f68746faaa4
+[2020-01-17 14:10:05,420] {{python_operator.py:105}} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=getGmailAttachments
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-17T14:09:42.785109+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-01-17T14:09:42.785109+00:00
+[2020-01-17 14:10:05,421] {{logging_mixin.py:112}} WARNING - /usr/local/lib/python3.7/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access token.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+[2020-01-17 14:10:05,421] {{taskinstance.py:1088}} ERROR - ('Error opening file', 'credentials.json', 'No such file or directory', 2)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 955, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/email.py", line 47, in GetAttachments
+    service = get_gmail_service(GMAIL_CREDENTIALS_PATH, GMAIL_TOKEN_PATH)
+  File "/usr/local/airflow/dags/email.py", line 39, in get_gmail_service
+    flow = client.flow_from_clientsecrets(credentials_path, SCOPES)
+  File "/usr/local/lib/python3.7/site-packages/oauth2client/_helpers.py", line 133, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/oauth2client/client.py", line 2135, in flow_from_clientsecrets
+    cache=cache)
+  File "/usr/local/lib/python3.7/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/usr/local/lib/python3.7/site-packages/oauth2client/clientsecrets.py", line 125, in _loadfile
+    exc.strerror, exc.errno)
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'credentials.json', 'No such file or directory', 2)
+[2020-01-17 14:10:05,425] {{taskinstance.py:1119}} INFO - Marking task as FAILED.
+[2020-01-17 14:10:15,280] {{logging_mixin.py:112}} INFO - [2020-01-17 14:10:15,279] {{local_task_job.py:103}} INFO - Task exited with return code 1

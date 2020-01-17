@@ -1,0 +1,16 @@
+[winUpdater]
+	recentlySeenVersion = 2.24.0.windows.2
+[user]
+	email = ganeshkedari@live.com
+	name = ganeshkedari
+	password = sam@pune123
+[credential]
+	helper = "!f() { command -v code >/dev/null 2>&1 && code --gitCredential $*; }; f"
+[core]
+	autocrlf = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+

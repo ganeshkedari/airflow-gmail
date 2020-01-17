@@ -1,0 +1,36 @@
+[2020-01-17 15:10:38,686] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: GetAttachments.hello_task 2020-01-17T15:10:33.958005+00:00 [queued]>
+[2020-01-17 15:10:38,696] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: GetAttachments.hello_task 2020-01-17T15:10:33.958005+00:00 [queued]>
+[2020-01-17 15:10:38,697] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 15:10:38,697] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2020-01-17 15:10:38,698] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-17 15:10:38,721] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): hello_task> on 2020-01-17T15:10:33.958005+00:00
+[2020-01-17 15:10:38,725] {{standard_task_runner.py:52}} INFO - Started process 1727 to run task
+[2020-01-17 15:10:38,798] {{logging_mixin.py:112}} INFO - [2020-01-17 15:10:38,796] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/email.py
+[2020-01-17 15:10:38,801] {{logging_mixin.py:112}} INFO - [2020-01-17 15:10:38,800] {{dagbag.py:246}} ERROR - Failed to import: /usr/local/airflow/dags/email.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/email.py", line 19, in <module>
+    tools.argparser.add_argument('-ci', '--client-id', type=str, required=True, help='The client ID of your GCP project')
+  File "/usr/local/lib/python3.7/argparse.py", line 1373, in add_argument
+    return self._add_action(action)
+  File "/usr/local/lib/python3.7/argparse.py", line 1736, in _add_action
+    self._optionals._add_action(action)
+  File "/usr/local/lib/python3.7/argparse.py", line 1577, in _add_action
+    action = super(_ArgumentGroup, self)._add_action(action)
+  File "/usr/local/lib/python3.7/argparse.py", line 1387, in _add_action
+    self._check_conflict(action)
+  File "/usr/local/lib/python3.7/argparse.py", line 1526, in _check_conflict
+    conflict_handler(action, confl_optionals)
+  File "/usr/local/lib/python3.7/argparse.py", line 1535, in _handle_conflict_error
+    raise ArgumentError(action, message % conflict_string)
+argparse.ArgumentError: argument -ci/--client-id: conflicting option strings: -ci, --client-id
+[2020-01-17 15:10:48,671] {{logging_mixin.py:112}} INFO - [2020-01-17 15:10:48,671] {{local_task_job.py:103}} INFO - Task exited with return code 1

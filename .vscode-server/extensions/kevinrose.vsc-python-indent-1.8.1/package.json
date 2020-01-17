@@ -1,0 +1,81 @@
+{
+	"name": "vsc-python-indent",
+	"displayName": "Python Indent",
+	"description": "Correct python indentation.",
+	"version": "1.8.1",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kbrose/vsc-python-indent"
+	},
+	"publisher": "KevinRose",
+	"license": "MIT",
+	"categories": [
+		"Formatters",
+		"Keymaps"
+	],
+	"icon": "static/logo.png",
+	"activationEvents": [
+		"onLanguage:python",
+		"onLanguage:jupyter",
+		"onDebugResolve:python",
+		"onCommand:pythonIndent.newlineAndIndent"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"keybindings": [
+			{
+				"command": "pythonIndent.newlineAndIndent",
+				"key": "enter",
+				"when": "editorTextFocus && !editorHasMultipleSelections && editorLangId == python && !suggestWidgetVisible && !vim.active"
+			},
+			{
+				"command": "pythonIndent.newlineAndIndent",
+				"key": "enter",
+				"when": "editorTextFocus && !editorHasMultipleSelections && editorLangId == python && !suggestWidgetVisible && vim.active == true && vim.mode =~ /(Insert|Replace|SurroundInputMode)/"
+			}
+		],
+		"commands": [
+			{
+				"command": "pythonIndent.newlineAndIndent",
+				"title": "newline and auto indent"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Python Indent configuration",
+			"properties": {
+				"pythonIndent.useTabOnHangingIndent": {
+					"type": "boolean",
+					"default": false,
+					"description": "After creating a hanging indent, press tab to leave the indented section and go to the ending bracket."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test",
+		"lint": "tslint --project ./tsconfig.json"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.59",
+		"tslint": "^5.20.1",
+		"typescript": "^3.7.2",
+		"vscode": "^1.1.36"
+	},
+	"dependencies": {
+		"python-indent-parser": "0.1.4"
+	},
+	"__metadata": {
+		"id": "f3cbfb84-b1e1-40ff-b70f-877253461260",
+		"publisherId": "23d4ba77-bbea-4ea1-94ee-996a1a497aba",
+		"publisherDisplayName": "Kevin Rose"
+	}
+}
