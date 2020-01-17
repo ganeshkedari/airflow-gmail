@@ -8,6 +8,7 @@
 	helper = "!f() { command -v code >/dev/null 2>&1 && code --gitCredential $*; }; f"
 [core]
 	autocrlf = true
+	excludesFile = /usr/local/airflow/.gitignore
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
